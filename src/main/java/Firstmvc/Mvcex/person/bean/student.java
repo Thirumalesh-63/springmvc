@@ -6,12 +6,15 @@ public class student {
 
     private String name;
 
+    private String age;
+
     public student() {
     }
 
-    public student(int id, String name) {
+    public student(int id, String name,String age) {
         this.id = id;
         this.name = name;
+        this.age=age;
     }
 
     public int getId() {
@@ -28,5 +31,13 @@ public class student {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getAge() {
+        return age;
+    }
+
+    public void setAge(String age) {
+        this.age = age;
     }
 }
