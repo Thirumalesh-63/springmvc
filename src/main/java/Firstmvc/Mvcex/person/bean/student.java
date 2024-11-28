@@ -9,6 +9,13 @@ public class student {
     private String age;
 
     private String dept;
+
+    private double salary;
+    private Long phno;
+    public student() {
+    }
+
+    public student(int id, String name,String age,long phno,String dept,Double salary) {
     private Long phno;
 
     private int salary;
@@ -32,7 +39,11 @@ public class student {
     public void setId(int id) {
         this.id = id;
     }
+    public double getSalary() {
+        return salary;
+    }
 
+    public void setSalary(double salary) {
       public int getSalary() {
         return salary;
     }
