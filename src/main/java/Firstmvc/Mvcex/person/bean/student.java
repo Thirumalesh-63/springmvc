@@ -10,24 +10,18 @@ public class student {
 
     private String dept;
 
-
+    private double salary;
     private Long phno;
-
-    private String dept;
-    
     public student() {
     }
 
-    public student(int id, String name,String age,long phno,String dept) {
+    public student(int id, String name,String age,long phno,String dept,Double salary) {
         this.id = id;
         this.name = name;
         this.age=age;
         this.phno=phno;
-<<<<<<< HEAD
         this.dept=dept;
-=======
-        this.dept=dept
->>>>>>> 44b50151b5a2d737e27140ec835054b8b57aaea1
+        this.salary=salary;
     }
 
     public int getId() {
@@ -38,12 +32,12 @@ public class student {
         this.id = id;
     }
 
-    public String getDept() {
-        return dept;
+    public double getSalary() {
+        return salary;
     }
 
-    public void setDept(String dept) {
-        this.dept = dept;
+    public void setSalary(double salary) {
+        this.salary = salary;
     }
 
     public String getName() {
