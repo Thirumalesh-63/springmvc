@@ -8,13 +8,16 @@ public class student {
 
     private String age;
 
+    private Long phno;
+
     public student() {
     }
 
-    public student(int id, String name,String age) {
+    public student(int id, String name,String age,long phno) {
         this.id = id;
         this.name = name;
         this.age=age;
+        this.phno=phno;
     }
 
     public int getId() {
@@ -39,5 +42,13 @@ public class student {
 
     public void setAge(String age) {
         this.age = age;
+    }
+
+    public Long getPhno() {
+        return phno;
+    }
+
+    public void setPhno(Long phno) {
+        this.phno = phno;
     }
 }
