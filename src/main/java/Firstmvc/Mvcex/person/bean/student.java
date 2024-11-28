@@ -12,25 +12,8 @@ public class student {
 
     private double salary;
     private Long phno;
-    public student() {
-    }
 
-    public student(int id, String name,String age,long phno,String dept,Double salary) {
-    private Long phno;
-
-    private int salary;
-    
-    public student() {
-    }
-
-    public student(int id, String name,String age,long phno,String dept,int salary) {
-        this.id = id;
-        this.name = name;
-        this.age=age;
-        this.phno=phno;
-        this.dept=dept;
-        this.salary=salary;
-    }
+    private String city;
 
     public int getId() {
         return id;
@@ -39,32 +22,13 @@ public class student {
     public void setId(int id) {
         this.id = id;
     }
-    public double getSalary() {
-        return salary;
-    }
 
-    public void setSalary(double salary) {
-      public int getSalary() {
-        return salary;
-    }
-
-    public void setSalary(int salary) {
-        this.salary = salary;
-    }
     public String getName() {
         return name;
     }
 
     public void setName(String name) {
         this.name = name;
-    }
-
-     public String getDept() {
-        return dept;
-    }
-
-    public void setDept(String dept) {
-        this.dept = dept;
     }
 
     public String getAge() {
@@ -75,11 +39,48 @@ public class student {
         this.age = age;
     }
 
+    public String getDept() {
+        return dept;
+    }
+
+    public void setDept(String dept) {
+        this.dept = dept;
+    }
+
+    public double getSalary() {
+        return salary;
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
+
     public Long getPhno() {
         return phno;
     }
 
     public void setPhno(Long phno) {
         this.phno = phno;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public student(int id, String name, String age, String dept, double salary, Long phno,String city) {
+        this.id = id;
+        this.name = name;
+        this.age = age;
+        this.dept = dept;
+        this.salary = salary;
+        this.phno = phno;
+        this.city=city;
+    }
+
+    public student() {
     }
 }
