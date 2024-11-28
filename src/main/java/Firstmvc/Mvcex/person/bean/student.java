@@ -8,6 +8,8 @@ public class student {
 
     private String age;
 
+    private String phno;
+
     public student() {
     }
 
@@ -24,6 +26,15 @@ public class student {
     public void setId(int id) {
         this.id = id;
     }
+
+     public int getPhno() {
+        return phno;
+    }
+
+    public void setPhno(int phno) {
+        this.phno = phno;
+    }
+
 
     public String getName() {
         return name;
