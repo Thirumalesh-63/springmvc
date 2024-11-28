@@ -8,16 +8,19 @@ public class student {
 
     private String age;
 
+    private String dept;
+
 
     private Long phno;
     public student() {
     }
 
-    public student(int id, String name,String age,long phno) {
+    public student(int id, String name,String age,long phno,String dept) {
         this.id = id;
         this.name = name;
         this.age=age;
         this.phno=phno;
+        this.dept=dept;
     }
 
     public int getId() {
@@ -27,8 +30,14 @@ public class student {
     public void setId(int id) {
         this.id = id;
     }
-    
 
+    public String getDept() {
+        return dept;
+    }
+
+    public void setDept(String dept) {
+        this.dept = dept;
+    }
 
     public String getName() {
         return name;
