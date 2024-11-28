@@ -6,6 +6,8 @@ public class student {
 
     private String name;
 
+    private int age;
+
     public student() {
     }
 
@@ -16,6 +18,14 @@ public class student {
 
     public int getId() {
         return id;
+    }
+
+     public int getAge() {
+        return age;
+    }
+
+     public int setAge(int age) {
+        this.age=age;
     }
 
     public void setId(int id) {
