@@ -16,6 +16,14 @@ public class student {
     }
 
     public student(int id, String name,String age,long phno,String dept,Double salary) {
+    private Long phno;
+
+    private int salary;
+    
+    public student() {
+    }
+
+    public student(int id, String name,String age,long phno,String dept,int salary) {
         this.id = id;
         this.name = name;
         this.age=age;
@@ -31,15 +39,18 @@ public class student {
     public void setId(int id) {
         this.id = id;
     }
-
     public double getSalary() {
         return salary;
     }
 
     public void setSalary(double salary) {
-        this.salary = salary;
+      public int getSalary() {
+        return salary;
     }
 
+    public void setSalary(int salary) {
+        this.salary = salary;
+    }
     public String getName() {
         return name;
     }
