@@ -8,8 +8,8 @@ public class student {
 
     private String age;
 
-    private Long phno;
 
+    private Long phno;
     public student() {
     }
 
@@ -27,6 +27,8 @@ public class student {
     public void setId(int id) {
         this.id = id;
     }
+    
+
 
     public String getName() {
         return name;
