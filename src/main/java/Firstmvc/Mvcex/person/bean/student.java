@@ -11,6 +11,7 @@ public class student {
     private String dept;
 
     private double salary;
+
     private Long phno;
 
     private String village;
