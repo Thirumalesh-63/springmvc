@@ -1,12 +1,12 @@
 package Firstmvc.Mvcex.person.bean;
 
 public class student2 {
-    private int id;
+    private int Id;
 
-    private String lname;
+    private String fname;
 
-    private String age;
+    private String Age;
 
-    private String dept;
+    private String Dept;
 
 }
