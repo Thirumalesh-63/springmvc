@@ -13,7 +13,7 @@ public class student {
     private double salary;
     private Long phno;
 
-    private String city;
+    private String village;
 
     public int getId() {
         return id;
@@ -64,21 +64,21 @@ public class student {
     }
 
     public String getCity() {
-        return city;
+        return village;
     }
 
-    public void setCity(String city) {
-        this.city = city;
+    public void setCity(String village) {
+        this.village = village;
     }
 
-    public student(int id, String name, String age, String dept, double salary, Long phno,String city) {
+    public student(int id, String name, String age, String dept, double salary, Long phno,String village) {
         this.id = id;
         this.name = name;
         this.age = age;
         this.dept = dept;
         this.salary = salary;
         this.phno = phno;
-        this.city=city;
+        this.village=village;
     }
 
     public student() {
