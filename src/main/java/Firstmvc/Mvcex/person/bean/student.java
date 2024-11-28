@@ -4,7 +4,7 @@ public class student {
 
     private int id;
 
-    private String fname;
+    private String lname;
 
     private String age;
 
@@ -24,11 +24,11 @@ public class student {
     }
 
     public String getName() {
-        return fname;
+        return lname;
     }
 
-    public void setName(String fname) {
-        this.fname = fname;
+    public void setName(String lname) {
+        this.lname = lname;
     }
 
     public String getAge() {
@@ -71,9 +71,9 @@ public class student {
         this.city = city;
     }
 
-    public student(int id, String fname, String age, String dept, double salary, Long phno,String city) {
+    public student(int id, String lname, String age, String dept, double salary, Long phno,String city) {
         this.id = id;
-        this.fname = fname;
+        this.lname = lname;
         this.age = age;
         this.dept = dept;
         this.salary = salary;
