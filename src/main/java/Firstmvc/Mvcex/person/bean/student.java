@@ -12,6 +12,9 @@ public class student {
 
 
     private Long phno;
+
+    private String dept;
+    
     public student() {
     }
 
@@ -20,7 +23,11 @@ public class student {
         this.name = name;
         this.age=age;
         this.phno=phno;
+<<<<<<< HEAD
         this.dept=dept;
+=======
+        this.dept=dept
+>>>>>>> 44b50151b5a2d737e27140ec835054b8b57aaea1
     }
 
     public int getId() {
@@ -45,6 +52,14 @@ public class student {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+     public String getDept() {
+        return dept;
+    }
+
+    public void setDept(String dept) {
+        this.dept = dept;
     }
 
     public String getAge() {
