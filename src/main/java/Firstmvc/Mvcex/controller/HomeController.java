@@ -14,7 +14,7 @@ public class HomeController {
 	@RequestMapping(value="/")
 	public ModelAndView test(HttpServletResponse response) throws IOException{
 		System.err.println("Thankssssssss");
-		System.err.println("assalamalekum");
+		System.err.println("assalamalekum2");
 		return new ModelAndView("home");
 	}
 }
