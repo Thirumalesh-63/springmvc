@@ -20,6 +20,9 @@ public class Stringcount {
 	}	
 	@RequestMapping(value = "", method = RequestMethod.POST)
 	public ModelAndView add(Person person) {
+		System.out.println("uytrestdgfkjn");
+		System.out.println("iuytrsfdgchjkl");
+		System.out.println("yutresghjkl");
 		String string=person.getName();
 		char chararray[]=string.toCharArray();
 		 Map<Character,Integer> map=new HashMap<Character,Integer>();
