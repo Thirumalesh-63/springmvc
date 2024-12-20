@@ -2,13 +2,13 @@ package Firstmvc.Mvcex.person.bean;
 
 public class Person2 {
 
-    int id2;
+    int id;
 
-    String name2;
+    String name;
 
-    int age2;
+    int age;
 
-    int salary2;
+    int salary;
 
     public String getName() {
         return name;
