@@ -2,28 +2,28 @@ package Firstmvc.Mvcex.person.bean;
 
 public class Person2 {
 
-    int id5;
+    int id6;
 
-    String name5;
+    String name6;
 
-    int age5;
+    int age6;
 
-    int salary5;
+    int salary6;
 
     public String getName() {
-        return name5;
+        return name6;
     }
 
     public void setName(String name) {
-        this.name5 = name;
+        this.name6 = name;
     }
 
     public int getAge() {
-        return age5;
+        return age6;
     }
 
     public void setAge(int age) {
-        this.age5 = age;
+        this.age6 = age;
     }
 
     public int getSalary() {
