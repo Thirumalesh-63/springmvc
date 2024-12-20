@@ -3,17 +3,17 @@ package Firstmvc.Mvcex.person.bean;
 public class Person {
 	@Override
 	public String toString() {
-		return "Person [id=" + id + ", name=" + name + ", sal=" + sal + ", company=" + company + "]";
+		return "Person [id=" + id3 + ", name=" + name + ", sal=" + sal + ", company=" + company + "]";
 	}
-	int id;
+	int id3;
 	String name;
 	int sal;
 	String company;
 	public int getId() {
-		return id;
+		return id3;
 	}
 	public void setId(int id) {
-		this.id = id;
+		this.id3 = id;
 	}
 	public String getName() {
 		return name;
@@ -39,7 +39,7 @@ public class Person {
 	}
 	public Person(int id, String name, int sal, String company) {
 		super();
-		this.id = id;
+		this.id3 = id;
 		this.name = name;
 		this.sal = sal;
 		this.company = company;
