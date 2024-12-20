@@ -39,10 +39,9 @@ public class PersonController {
 	}	
 	@RequestMapping(value = "/all", method = RequestMethod.GET)
 	public ModelAndView allpersons() {
-		log.info("jhughjklh");
-		System.err.println("jhgfchjkl");
-		System.err.println("hari");
-		System.err.println("ramesh");
+		System.out.println("jhgfdghjkl;l");
+		System.out.println("fdsdfghjlk");
+		System.out.println("jhgfdsghjkl");
 		System.out.println("+++++++++++++++++++++++++++++");
 		List<Person> persons = new ArrayList<Person>();
 		persons.add(new Person(4,"sai",20000,"tcs"));

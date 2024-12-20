@@ -8,12 +8,14 @@ public class Person2 {
 
     int age;
 
-    public int getId() {
-        return id;
+    int salary;
+
+    public String getName() {
+        return name;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public int getAge() {
@@ -23,11 +25,20 @@ public class Person2 {
     public void setAge(int age) {
         this.age = age;
     }
-     public int getName() {
-        return name;
+
+    public int getSalary() {
+        return salary;
     }
 
-    public void setName(int name) {
-        this.Name = name;
+    public void setSalary(int salary) {
+        this.salary = salary;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }
