@@ -5,10 +5,10 @@ public class Person {
 	public String toString() {
 		return "Person [id=" + id3 + ", name=" + name + ", sal=" + sal + ", company=" + company + "]";
 	}
-	int id2;
-	String name2;
-	int sal2;
-	String company2;
+	int id1;
+	String name1;
+	int sal1;
+	String company1;
 	public int getId() {
 		return id3;
 	}
