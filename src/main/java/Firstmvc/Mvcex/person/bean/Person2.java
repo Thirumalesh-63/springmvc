@@ -2,43 +2,43 @@ package Firstmvc.Mvcex.person.bean;
 
 public class Person2 {
 
-    int id;
+    int id3;
 
-    String name;
+    String name3;
 
-    int age;
+    int age3;
 
-    int salary;
+    int salary3;
 
     public String getName() {
-        return name;
+        return name3;
     }
 
     public void setName(String name) {
-        this.name = name;
+        this.name3 = name;
     }
 
     public int getAge() {
-        return age;
+        return age3;
     }
 
     public void setAge(int age) {
-        this.age = age;
+        this.age3 = age;
     }
 
     public int getSalary() {
-        return salary;
+        return salary3;
     }
 
     public void setSalary(int salary) {
-        this.salary = salary;
+        this.salary3 = salary;
     }
 
     public int getId() {
-        return id;
+        return id3;
     }
 
     public void setId(int id) {
-        this.id = id;
+        this.id3 = id;
     }
 }
