@@ -2,7 +2,7 @@ package Firstmvc.Mvcex.person.bean;
 
 public class Person2 {
 
-    int id1;
+    int id;
 
     String name;
 
