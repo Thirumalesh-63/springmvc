@@ -5,15 +5,15 @@ public class Person {
 	public String toString() {
 		return "Person [id=" + id + ", name=" + name + ", sal=" + sal + ", company=" + company + "]";
 	}
-	int id;
+	int id2;
 	String name;
 	int sal;
 	String company;
 	public int getId() {
-		return id;
+		return id2;
 	}
-	public void setId(int id) {
-		this.id = id;
+	public void setId(int id2) {
+		this.id2 = id2;
 	}
 	public String getName() {
 		return name;
@@ -37,9 +37,9 @@ public class Person {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public Person(int id, String name, int sal, String company) {
+	public Person(int id2, String name, int sal, String company) {
 		super();
-		this.id = id;
+		this.id2 = id2;
 		this.name = name;
 		this.sal = sal;
 		this.company = company;
