@@ -39,7 +39,7 @@ public class Person {
 	}
 	public Person(int id, String name, int sal, String company) {
 		super();
-		this.id4 = id;
+		this.id3 = id;
 		this.name3 = name;
 		this.sal3 = sal;
 		this.company3 = company;
