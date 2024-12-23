@@ -3,35 +3,35 @@ package Firstmvc.Mvcex.person.bean;
 public class Person {
 	@Override
 	public String toString() {
-		return "Person [id=" + id1 + ", name=" + name1 + ", sal=" + sal1 + ", company=" + company1 + "]";
+		return "Person [id=" + id3 + ", name=" + name3 + ", sal=" + sal3 + ", company=" + company3 + "]";
 	}
-	int id1;
-	String name1;
-	int sal1;
-	String company1;
+	int id3;
+	String name3;
+	int sal3;
+	String company3;
 	public int getId() {
-		return id1;
+		return id3;
 	}
 	public void setId(int id) {
-		this.id1 = id;
+		this.id3 = id;
 	}
 	public String getName() {
-		return name1;
+		return name3;
 	}
 	public void setName(String name) {
-		this.name1 = name;
+		this.name3 = name;
 	}
 	public int getSal() {
-		return sal1;
+		return sal3;
 	}
 	public void setSal(int sal) {
-		this.sal1 = sal;
+		this.sal3 = sal;
 	}
 	public String getCompany() {
-		return company1;
+		return company3;
 	}
 	public void setCompany(String company) {
-		this.company1 = company;
+		this.company3 = company;
 	}
 	public Person() {
 		super();
@@ -39,10 +39,10 @@ public class Person {
 	}
 	public Person(int id, String name, int sal, String company) {
 		super();
-		this.id1 = id;
-		this.name1 = name;
-		this.sal1 = sal;
-		this.company1 = company;
+		this.id3 = id;
+		this.name3 = name;
+		this.sal3 = sal;
+		this.company3 = company;
 	}
 	
 
