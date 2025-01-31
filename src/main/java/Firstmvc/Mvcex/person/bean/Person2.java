@@ -6,7 +6,7 @@ public class Person2 {
 
     String name5;
 
-    int age5;
+    int age;
 
     int salary5;
 
