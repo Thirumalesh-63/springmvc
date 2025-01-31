@@ -19,6 +19,7 @@ public class Stringcount {
 	}	
 	@RequestMapping(value = "", method = RequestMethod.POST)
 	public ModelAndView add(Person person) {
+		System.err.println("jhgfchjkl");
 		System.err.println("hari");
 		System.err.println("ramesh");
 		String string=person.getName();

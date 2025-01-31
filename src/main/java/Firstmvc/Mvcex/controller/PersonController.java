@@ -16,6 +16,9 @@ import org.springframework.web.servlet.ModelAndView;
 public class PersonController {
 	@RequestMapping(value = "/add", method = RequestMethod.GET)
 	public ModelAndView page(Person person) {
+		System.err.println("jhgfchjkl");
+		System.err.println("hari");
+		System.err.println("ramesh");
 		return new ModelAndView("insert", "inse", new Person()).addObject("headerName", "insert person");
 	}	
 	@RequestMapping(value = "", method = RequestMethod.POST)
