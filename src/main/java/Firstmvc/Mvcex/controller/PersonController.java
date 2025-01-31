@@ -3,6 +3,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import Firstmvc.Mvcex.person.bean.Person;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,11 +16,13 @@ import org.springframework.web.servlet.ModelAndView;
 @RequestMapping("/person")
 //@SessionAttributes("user") // we can set the data to this by @modelattribute(user) User user and get the data by @SessionAttribute("user") at method parameters
 public class PersonController {
+
+	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
+
 	@RequestMapping(value = "/add", method = RequestMethod.GET)
 	public ModelAndView page(Person person) {
-		System.err.println("jhgfchjkl");
-		System.err.println("hari");
-		System.err.println("ramesh");
+		logger.info("jhughjklh");
+		logger.info("khfgjk");
 		return new ModelAndView("insert", "inse", new Person()).addObject("headerName", "insert person");
 	}	
 	@RequestMapping(value = "", method = RequestMethod.POST)
@@ -32,6 +36,8 @@ public class PersonController {
 	}
 	@RequestMapping(value = "/adds", method = RequestMethod.GET)
 	public ModelAndView page1(Person person) {
+		logger.info("jhughjklh");
+		logger.info("khfgjk");
 		return new ModelAndView("Rqparam", "inse", new Person()).addObject("headerName", "insert person");
 	}
 	@RequestMapping(value = "/adding")
