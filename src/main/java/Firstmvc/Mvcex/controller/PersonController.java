@@ -1,15 +1,15 @@
 package Firstmvc.Mvcex.controller;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
+
+import Firstmvc.Mvcex.person.bean.Person;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
-import Firstmvc.Mvcex.person.bean.Person;
+
 @Controller
 @RequestMapping("/person")
 //@SessionAttributes("user") // we can set the data to this by @modelattribute(user) User user and get the data by @SessionAttribute("user") at method parameters
@@ -39,7 +39,7 @@ public class PersonController {
 	}	
 	@RequestMapping(value = "/all", method = RequestMethod.GET)
 	public ModelAndView allpersons() {
-		System.out.println("jhgfdghjkl;l");
+		System.out.println("jhgfdghjkll");
 		System.out.println("fdsdfghjlk");
 		System.out.println("jhgfdsghjkl");
 		System.out.println("+++++++++++++++++++++++++++++");
