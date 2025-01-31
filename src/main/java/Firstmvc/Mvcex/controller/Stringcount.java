@@ -4,12 +4,11 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 
+import Firstmvc.Mvcex.person.bean.Person;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
-
-import Firstmvc.Mvcex.person.bean.Person;
 
 @Controller
 @RequestMapping("/string")
