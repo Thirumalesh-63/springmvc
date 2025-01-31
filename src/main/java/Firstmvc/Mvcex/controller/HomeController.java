@@ -17,6 +17,9 @@ public class HomeController {
 		System.err.println("jhgfchjkl");
 		System.err.println("hari");
 		System.err.println("ramesh");
+		System.err.println("jhgfchjkl");
+		System.err.println("hari");
+		System.err.println("ramesh");
 		return new ModelAndView("home");
 	}
 }
