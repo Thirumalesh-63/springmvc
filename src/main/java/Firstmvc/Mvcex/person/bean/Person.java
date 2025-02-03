@@ -27,7 +27,7 @@ public class Person {
     }
 
     public void setSal(int sal) {
-        this.sal3 = sal;
+        this.sal4 = sal;
     }
 
     public String getCompany() {
