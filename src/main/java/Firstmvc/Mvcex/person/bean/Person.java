@@ -1,10 +1,10 @@
 package Firstmvc.Mvcex.person.bean;
 
 public class Person {
-    int id3;
-    String name3;
-    int sal3;
-    String company3;
+    int id1;
+    String name1;
+    int sal1;
+    String company1;
 
     public int getId() {
         return id3;
