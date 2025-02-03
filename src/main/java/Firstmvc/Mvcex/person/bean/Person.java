@@ -1,29 +1,29 @@
 package Firstmvc.Mvcex.person.bean;
 
 public class Person {
-    int id1;
-    String name1;
-    int sal1;
-    String company1;
+    int id4;
+    String name4;
+    int sal4;
+    String company4;
 
     public int getId() {
-        return id3;
+        return id4;
     }
 
     public void setId(int id) {
-        this.id3 = id;
+        this.id4 = id;
     }
 
     public String getName() {
-        return name3;
+        return name4;
     }
 
     public void setName(String name) {
-        this.name3 = name;
+        this.name4 = name;
     }
 
     public int getSal() {
-        return sal3;
+        return sal4;
     }
 
     public void setSal(int sal) {
@@ -31,20 +31,20 @@ public class Person {
     }
 
     public String getCompany() {
-        return company3;
+        return company4;
     }
 
     public void setCompany(String company) {
-        this.company3 = company;
+        this.company4 = company;
     }
 
     public Person() {
     }
 
     public Person( int id,String name, int sal, String company) {
-        this.name3 = name;
-        this.id3 = id;
-        this.sal3 = sal;
-        this.company3 = company;
+        this.name4 = name;
+        this.id4 = id;
+        this.sal4 = sal;
+        this.company4 = company;
     }
 }
