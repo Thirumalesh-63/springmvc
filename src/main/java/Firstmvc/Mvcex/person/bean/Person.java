@@ -1,50 +1,50 @@
 package Firstmvc.Mvcex.person.bean;
 
 public class Person {
-    int id4;
-    String name4;
-    int sal4;
-    String company4;
+    int id;
+    String name;
+    int sal;
+    String company;
 
     public int getId() {
-        return id4;
+        return id;
     }
 
     public void setId(int id) {
-        this.id4 = id;
+        this.id = id;
     }
 
     public String getName() {
-        return name4;
+        return name;
     }
 
     public void setName(String name) {
-        this.name4 = name;
+        this.name = name;
     }
 
     public int getSal() {
-        return sal4;
+        return sal;
     }
 
     public void setSal(int sal) {
-        this.sal4 = sal;
+        this.sal = sal;
     }
 
     public String getCompany() {
-        return company4;
+        return company;
     }
 
     public void setCompany(String company) {
-        this.company4 = company;
+        this.company = company;
     }
 
     public Person() {
     }
 
     public Person( int id,String name, int sal, String company) {
-        this.name4 = name;
-        this.id4 = id;
-        this.sal4 = sal;
-        this.company4 = company;
+        this.name = name;
+        this.id = id;
+        this.sal = sal;
+        this.company = company;
     }
 }
