@@ -1,6 +1,6 @@
 package Firstmvc.Mvcex.person.bean;
 
-public class person3 {
+public class person5 {
     int id3;
 
     String name3;
