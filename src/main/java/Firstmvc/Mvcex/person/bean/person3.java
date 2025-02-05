@@ -1,11 +1,11 @@
 package Firstmvc.Mvcex.person.bean;
 
 public class person3 {
-    int id3;
+    int id5;
 
-    String name3;
+    String name5;
 
-    int age3;
+    int age5;
 
-    int salary3;
+    int salary5;
 }
